@@ -1,0 +1,168 @@
+body {
+  border: 1px solid gray;
+}
+
+.header {
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1em;
+}
+.header .headerpart1 {
+  display: flex;
+  align-items: center;
+}
+.header .headerpart2 {
+  display: flex;
+  align-items: center;
+}
+
+.ad {
+  height: 5em;
+  padding: 0.5em;
+}
+
+.button {
+  background-color: rgb(239, 175, 25);
+  height: 3em;
+  width: 7em;
+  border: none;
+  border-radius: 5%;
+  margin-right: 1em;
+}
+.button .plus {
+  font-weight: bolder;
+  font-size: large;
+  margin-right: 0.2em;
+}
+.button:hover {
+  background-color: #d79e17;
+}
+
+a {
+  text-decoration: none;
+}
+
+.search {
+  background-color: #dbdbdb;
+  margin-top: 5em;
+  margin-left: 5em;
+  width: 90%;
+}
+.search .searchpart1 {
+  width: 25em;
+  padding-top: 1em;
+  padding-bottom: 0.3em;
+  padding-left: 2em;
+  display: inline-block;
+}
+.search .searchpart2 {
+  display: inline-block;
+  width: 25em;
+  padding-top: 1em;
+  padding-bottom: 0.3em;
+  padding-left: 2em;
+}
+.search .searchpart3 {
+  display: inline-block;
+  width: 25em;
+  padding-top: 1em;
+  padding-bottom: 0.3em;
+  padding-left: 2em;
+}
+
+.furniture1 {
+  display: flex;
+  border: 1px solid gray;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  height: 15em;
+  border-radius: 1%;
+}
+.furniture1 .furniture_description {
+  width: 35em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.furniture1 .price {
+  display: flex;
+  justify-content: center;
+  width: 5em;
+}
+
+.furniture2 {
+  display: flex;
+  border: 1px solid gray;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 1em;
+  height: 15em;
+  border-radius: 1%;
+}
+.furniture2 .furniture_description {
+  width: 35em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.furniture2 .price {
+  display: flex;
+  justify-content: center;
+  width: 5em;
+}
+
+.furniture3 {
+  display: flex;
+  border: 1px solid gray;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 3em;
+  height: 15em;
+  border-radius: 1%;
+}
+.furniture3 .furniture_description {
+  width: 35em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.furniture3 .price {
+  display: flex;
+  justify-content: center;
+  width: 5em;
+}
+
+.footer {
+  width: 80%;
+  margin-left: 10%;
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1em;
+}
+.footer .img {
+  height: 12em;
+}
+.footer .column1 {
+  color: blue;
+  display: inline-block;
+}
+.footer .column2 {
+  color: blue;
+  display: inline-block;
+}
+.footer .column3 {
+  color: blue;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,163 @@
+@use "./variables.scss" as *;
+
+body{
+    border: 1px solid gray;
+}
+.header{
+    background-color: $color_gray;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1em;
+    & .headerpart1{
+        display: flex;
+        align-items: center;
+    }
+    & .headerpart2{
+        display: flex;
+        align-items: center;
+    }
+}
+.ad{
+    height: 5em;
+    padding: 0.5em;
+}
+
+.button{
+    background-color: $color_warn;
+    height: 3em;
+    width: 7em;
+    border: none;
+    border-radius: 5%;
+    margin-right: 1em;
+    & .plus{
+        font-weight: bolder;
+        font-size: large;
+        margin-right: 0.2em;
+    }
+    &:hover{
+        background-color: mix($color_warn, black, 90%);
+    }
+}
+a{
+    text-decoration: none;
+}
+
+.search{
+    background-color: mix($color_gray, black, 90%);
+    margin-top: 5em;
+    margin-left: 5em;
+    width: 90%;
+    & .searchpart1{
+        width: 25em;
+        padding-top: 1em;
+        padding-bottom: 0.3em;
+        padding-left: 2em;
+        display: inline-block;
+    }
+    & .searchpart2{
+        display: inline-block;
+        width: 25em;
+        padding-top: 1em;
+        padding-bottom: 0.3em;
+        padding-left: 2em;
+    }
+    & .searchpart3{
+        display: inline-block;
+        width: 25em;
+        padding-top: 1em;
+        padding-bottom: 0.3em;
+        padding-left: 2em;
+    }
+}
+
+.furniture1{
+    display: flex;
+    border: 1px solid gray;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    height: 15em;
+    border-radius: 1%;
+    & .furniture_description{
+        width: 35em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    & .price{
+        display: flex;
+        justify-content: center;
+        width: 5em;
+        
+    }
+}
+.furniture2{
+    display: flex;
+    border: 1px solid gray;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 1em;
+    height: 15em;
+    border-radius: 1%;
+    & .furniture_description{
+        width: 35em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    & .price{
+        display: flex;
+        justify-content: center;
+        width: 5em;
+    }
+}
+.furniture3{
+    display: flex;
+    border: 1px solid gray;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 3em;
+    height: 15em;
+    border-radius: 1%;
+    & .furniture_description{
+        width: 35em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    & .price{
+        display: flex;
+        justify-content: center;
+        width: 5em;
+    }
+}
+.footer{
+    width: 80%;
+    margin-left: 10%;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1em;
+    & .img{
+        height: 12em;
+    }
+    & .column1{
+        color: blue;
+        display: inline-block;
+    }
+    & .column2{
+        color: blue;
+        display: inline-block;
+    }
+    & .column3{
+        color: blue;
+        display: inline-block;
+    }
+}
